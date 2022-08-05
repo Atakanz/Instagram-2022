@@ -1,0 +1,100 @@
+
+
+.out {
+    border-radius: 8px;
+    margin-left: 185px;
+}
+
+@media (max-width: 1000px) {
+    .out{
+        margin-left: 0;
+    }
+
+    .navbar-brand{
+        margin-left: 0;
+        
+    }
+}
+
+
+@media (max-width: 400px) {
+    .body {
+        width: 100%;
+    }
+}
+
+
+
+.searchbutton {
+    text-indent: 25px;
+    border: none;
+} 
+.searchbutton:focus {
+    text-indent: 0px; 
+} 
+
+.searchbutton::placeholder {
+    background-image: url(assets/search-solid.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 16px; 
+}
+
+.searchbutton:focus::placeholder{
+    background-image: none;
+}
+
+.nav-link {
+    margin-left: 9px;
+}
+
+.listicon {
+    margin-left:25px ;
+
+}
+
+.storyprofile {
+    font-size: 12px;
+    margin: 0px;
+    padding:0px 2px;
+    max-width: 74px;
+    max-height: 16px;
+}
+
+.postundericon {
+    padding:8px;
+}
+
+.sharelink {
+    text-decoration: none;
+    color: lightblue;
+}
+
+.sidetext {
+    font-size: 14px;
+}
+
+.suggestionph {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.sidelink {
+    color:dodgerblue;font-size: 12px; text-decoration: none;
+    font-weight: bold;
+}
+
+.sidebottomlink {
+    color: #c7c7c7;
+    font-size: 12px;
+    text-decoration: none;
+    
+}
+
+
+
+
+
+
+
