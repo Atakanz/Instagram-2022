@@ -1,18 +1,16 @@
-
-
 .out {
     border-radius: 8px;
     margin-left: 185px;
 }
 
-@media (max-width: 1000px) {
+
+@media (max-width: 994px) {
     .out{
         margin-left: 0;
     }
 
     .navbar-brand{
-        margin-left: 0;
-        
+        margin-left: 0;   
     }
 }
 
@@ -20,6 +18,18 @@
 @media (max-width: 400px) {
     .body {
         width: 100%;
+    }
+    .navbar {
+        padding: 0;
+    }
+}
+
+@media (max-width: 400px) {
+    .body {
+        width: 100%;
+    }
+    .navbar {
+        padding: 0;
     }
 }
 
@@ -91,6 +101,19 @@
     text-decoration: none;
     
 }
+
+.card {
+    max-width: 498px;
+    min-width:498px !important;
+}
+
+.card.cstory {
+    max-width: 498px; 
+    min-width:498px;
+}
+
+
+
 
 
 
