@@ -15,26 +15,6 @@
 }
 
 
-@media (max-width: 400px) {
-    .body {
-        width: 100%;
-    }
-    .navbar {
-        padding: 0;
-    }
-}
-
-@media (max-width: 400px) {
-    .body {
-        width: 100%;
-    }
-    .navbar {
-        padding: 0;
-    }
-}
-
-
-
 .searchbutton {
     text-indent: 25px;
     border: none;
@@ -91,26 +71,124 @@
 }
 
 .sidelink {
-    color:dodgerblue;font-size: 12px; text-decoration: none;
+    color:dodgerblue; font-size: 12px; text-decoration: none;
     font-weight: bold;
 }
+
+.sidelink:hover {
+    color:dodgerblue;
+}
+
 
 .sidebottomlink {
     color: #c7c7c7;
     font-size: 12px;
-    text-decoration: none;
+    text-decoration: none;  
+}
+
+.sidebottomlink:hover {
+    text-decoration: underline;
+    color:#c7c7c7;
+}
+
+.sidebottom {
+    color: #c7c7c7;
+    font-size: 12px;
+    text-decoration: none;  
+}
+
+
+
+
+
+@media (min-width:576px) { 
+    /* xs'dan büyük iken */
+    .card {
+        width: 497px;
+    }   
+}
+
+@media (max-width:576px) { 
+    /* xs */
+    .card {
+        width: 100%;
+        
+    }
+
+    .card.cstory {
+        width:100vw;
+       
+        
+    }  
+    .stories {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+       
+        width: 100vw;
+    } 
+    
+    button {
+        
+        width:16vw;
+    }
+
+    
     
 }
 
-.card {
-    max-width: 498px;
-    min-width:498px !important;
+@media (max-width:300px) { 
+    
+    .fifth {
+        display: none;
+    }
+    button {
+        
+        margin-left: 10px !important;
+    }
+
+    .pp {
+        display: none !important;
+    }
+    .navbar-brand {
+        padding: 0 !important;
+        margin: 0 !important;
+    } 
 }
 
-.card.cstory {
-    max-width: 498px; 
-    min-width:498px;
+@media (min-width:301px) and (max-width:371px)  { 
+    .pp {
+        display: none !important;
+    } 
+    
 }
+
+.sidelinks li:not(:last-child) .sidebottomlink::after {
+    content: '\00B7';
+    margin: 0 .25em 0 .25em;
+}
+
+.textlinks {
+    text-decoration: none;
+    color:black;
+}
+
+.textlinks:hover {
+    text-decoration: none;
+    color:black;
+}
+
+.underpostlink {
+    color:black;
+}
+
+.underpostlink:hover {
+    color:black;
+    opacity: 0.5;
+}
+
+
+
+
 
 
 
