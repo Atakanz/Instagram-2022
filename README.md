@@ -5,4 +5,4 @@
 4) Sidebar içerisinde :after ile list-item yanına content (.) yerleşimleri yapıldı.
 
 
-<img src="./Instagram 2022.png" width="300" height="150"/>
+<img src="./Instagram 2022.png"  />
